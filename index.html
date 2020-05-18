@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Escala de Cores</title>
+  </head>
+  <body>
+    <form>
+      <h1>Picking Colors</h1>
+      <div class="container-color">
+        (R) Vermelho:<input
+          id="colorRed"
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+        />
+        <input class="box-text" id="txtRed" type="text" disabled value="0" />
+      </div>
+
+      <div class="container-color">
+        (G) Verde:<input
+          id="colorGreen"
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+        />
+        <input class="box-text" id="txtGreen" type="text" disabled value="0" />
+      </div>
+
+      <div class="container-color">
+        (B) Azul:<input
+          id="colorBlue"
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+        />
+        <input class="box-text" id="txtBlue" type="text" disabled value="0" />
+      </div>
+
+      <div class="result-color">
+        <div id="colorResult"></div>
+      </div>
+    </form>
+    <script src="./Script/Script.js"></script>
+  </body>
+</html>

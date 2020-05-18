@@ -1,0 +1,41 @@
+body {
+  background-color: dimgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 400px;
+  width: 400px;
+}
+
+.container-color {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+#colorResult {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 100%;
+  height: 150px;
+  margin: 10px;
+  width: 150px;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  align-content: center;
+}
+
+.box-text {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
